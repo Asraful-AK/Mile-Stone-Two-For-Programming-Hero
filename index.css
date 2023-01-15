@@ -16,10 +16,6 @@ header{
     width: 100%;
     height: 80px;
     margin-bottom: 50px;
-    /* display: inline-block; */
-    /* display: flex;
-    justify-content: space-between; */
-    /* margin:50px; */
 }
 .nav .logo{
     font-size: 40px;
@@ -29,7 +25,6 @@ header{
     display: inline-block;
 }
 .nav ul{
-    /* display: none; */
     float: right;
     margin-right: 20px;
     line-height: 170px;
@@ -37,7 +32,6 @@ header{
 .nav ul li{
     display: inline-block;
     line-height: 80px;
-    /* margin:0 20px; */
 }
 .nav ul li a{
     text-decoration: none;
@@ -51,7 +45,6 @@ header{
     background-color: aqua;
 }
 .header-title{
-    /* position: relative; */
     text-align: center;
     width: 100%;
     font-size: 50px;
@@ -96,12 +89,10 @@ header img{
     position: relative;
     float: right;
     font-size: 40px;
-    /* line-height: 170px; */
     top:55px;
     margin:0 50px;
     display: none;
     cursor: pointer;
-    /* margin-bottom: 50px; */
 }
 @media (max-width:768px) {
     .nav{
@@ -116,28 +107,20 @@ header img{
         font-size: 25px;
         text-align: center;
         white-space: nowrap;
-        /* line-height: 60px; */
         
     }
     .nav ul{
-        /* display: none; */
         position: relative;
         width: 100%;
         margin: 0;
-        /* top:00px; */
         left:0;
-        /* height: 100vh; */
         padding: 0;
         left: -100%;
-        /* margin-bottom: 50px; */
         text-align: center;
         
     }
     .nav ul li{
         display: block;
-        /* align-content: center;
-        font-size: 20px;
-        margin: 0; */
     }
     .checkbtn{
         display: inline-block;
@@ -179,7 +162,7 @@ main .main-left{
     gap:10px;
 }
 main .main-left img{
-    width: 200px;
+    width: 90%;
 }
 main .main-right{
     width: 400px;
@@ -189,16 +172,13 @@ main .main-right{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 20px;
-    /* opacity: 0.6; */
 }
 .main-right-title b{
     font-weight: 900;
-    /* opacity: 1; */
 }
 .main-right-title span{
     color:orange;
     font-weight: 900;
-    /* opacity: 1; */
 }
 .main-right-title .ok{
     color:black;
@@ -233,7 +213,8 @@ main .main-right{
     main .main-left img{
         position: relative;
         left: -50px;
-        width: 100%;
+        width: 80%;
+        margin-left: 7%;
     }
     .main-right-title{
         font-size: 30px;
@@ -271,7 +252,6 @@ main .main-right{
 .body-right-title-body{
     margin-bottom: 80px;
     opacity: 0.8;
-    /* width: 80%; */
 }
 .body-right-list > div{
     margin:70px 0 0 40px;
@@ -288,7 +268,6 @@ main .main-right{
 }
 
 .body-left{
-    /* border: 2px solid; */
     position: relative;
 }
 
@@ -303,7 +282,6 @@ main .main-right{
     padding: 30px;
     left:-40px;
     bottom: -40px;
-    /* bottom: 0px; */
 }
 .body-left-ex span{
     font-size: 20px;
@@ -420,7 +398,6 @@ main .main-right{
     margin-bottom: 40px ;
 }
 .sponser-body{
-    /* text-align: center; */
     margin-left:35%;
     width: 30%;
     opacity: 0.8;
